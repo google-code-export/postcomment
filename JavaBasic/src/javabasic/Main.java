@@ -16,5 +16,10 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("change happens");
+        System.out.println(calc(2,4));
+    }
+
+    public static int calc(int x, int y) {
+        return x + y;
     }
 }
